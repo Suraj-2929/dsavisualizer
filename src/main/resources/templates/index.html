@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DSA Visualizer - Interactive Algorithm Learning</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-brand">
+            <h1>DSA Visualizer</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/bubble-sort">Bubble Sort</a></li>
+            <li><a href="https://github.com/yourusername/dsavisualizer" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="hero">
+        <h2>Learn Data Structures & Algorithms Visually</h2>
+        <p>Interactive visualizations to understand sorting algorithms and data structures</p>
+
+        <div class="algorithm-cards">
+            <div class="card">
+                <h3>Bubble Sort</h3>
+                <p>Visualize the bubble sort algorithm step by step</p>
+                <a href="/bubble-sort" class="btn btn-primary">Try It Now</a>
+            </div>
+
+            <div class="card coming-soon">
+                <h3>Quick Sort</h3>
+                <p>Coming soon...</p>
+                <button class="btn btn-disabled" disabled>Coming Soon</button>
+            </div>
+
+            <div class="card coming-soon">
+                <h3>Tree Traversal</h3>
+                <p>Coming soon...</p>
+                <button class="btn btn-disabled" disabled>Coming Soon</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2025 DSA Visualizer | Built with Spring Boot & Java</p>
+    <p>Created by: Your Name | <a href="https://github.com/yourusername">GitHub Profile</a></p>
+</footer>
+</body>
+</html>
